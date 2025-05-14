@@ -28,16 +28,31 @@ body {
   background-color: rgb(100, 100, 100);
 }
 
+
+
+.containerG {
+  display: flex;               /* Organiza os itens na horizontal */
+  align-items: center;         /* Alinha o texto e a imagem no centro vertical */
+  gap: 15px;                   /* Espaço entre imagem e texto */
+}
+
 .Cujo {
   width: 350px; 
   height: 350;
-  margin: 0 auto;
+  margin: 10px;
   border-radius: 50px;     
   box-shadow: 0 0 25px #0005;
   border-color: rgb(195, 95, 0);
 }
-
 .Cujo:hover{
   border-color: rgb(255, 165, 0);
 }
+
+.texto-Cujo {
+  font-size: 18px;
+  color: #333;
+  max-width: 500px;            /* Limita o tamanho do texto */
+
+}
+
 
