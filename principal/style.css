@@ -4,19 +4,29 @@ body {
 
 .descricao {
     text-align:center;
-    color: pink;
+    color: grey;
     font-size: medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 3cm;
     margin-right: 3cm;
+    
+    
 }
 
 
-.cent {
-    background-color: rgb(129, 129, 129);     
+.cent :hover {
+  background-color: rgb(129, 129, 129);     
   color: rgb(97, 45, 45);                
-  padding: 30px 0;             
+  padding: 20px 0;             
   text-align: center;           
   box-shadow: 0 2px 10px #0005;
-  font-size:xxx-large /* Não fazia ideia que xxx large existia */
+  font-size:xxx-large
+   /* Não fazia ideia que xxx large existia */
+}
+
+.Cujo{
+  width: 350px; 
+  height: 350;
+  margin: 30px;
+  border-radius: 50px;     
 }
