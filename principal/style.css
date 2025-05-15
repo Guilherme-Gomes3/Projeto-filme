@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(169,169,169);
+ background-color: rgb(225,225,225); 
+
 }
 
 .descricao {
@@ -38,21 +39,40 @@ body {
 
 .Cujo {
   width: 350px; 
-  height: 350;
+  height: 350px;
   margin: 10px;
   border-radius: 50px;     
-  box-shadow: 0 0 25px #0005;
-  border-color: rgb(195, 95, 0);
-}
-.Cujo:hover{
-  border-color: rgb(255, 165, 0);
+  box-shadow: 10px 10px 0px orange;
+
+
 }
 
-.texto-Cujo {
+.Cujo:hover{
+  box-shadow: 0px 0px 25px 
+}
+
+.lista {
   font-size: 18px;
   color: #333;
   max-width: 500px;            /* Limita o tamanho do texto */
   font-weight: bold;
 }
 
+
+.teste{ 
+  
+  text-decoration: none;
+  color: black;
+}
+
+.teste:hover{
+  text-decoration: underline;
+  color:  rgb(99, 27, 27);
+}
+
+
+.separacao{
+  height: 50px;
+  background-size: 10px;
+}
 
