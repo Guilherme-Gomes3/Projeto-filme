@@ -51,6 +51,20 @@ body {
   box-shadow: 0px 0px 25px 
 }
 
+.image {
+  width: 350px; 
+  height: 335px;
+  margin: 10px;
+  border-radius: 50px;     
+  box-shadow: 10px 10px 0px orange;
+
+
+}
+
+.image1:hover{
+  box-shadow: 0px 0px 25px 
+}
+
 .lista {
   font-size: 18px;
   color: #333;
@@ -59,13 +73,13 @@ body {
 }
 
 
-.box-img{ 
+.link{ 
   
   text-decoration: none;
   color: black;
 }
 
-.box-img:hover{
+.link:hover{
   text-decoration: underline;
   color:  rgb(99, 27, 27);
 }
