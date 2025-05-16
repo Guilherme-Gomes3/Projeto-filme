@@ -9,9 +9,9 @@
 <link rel="icon" href="cinema.JPG" type="image/JPG">
 <link rel="icon" href="imagens-maneiras/cinema.JPG" type="image/JPG">
 <body>
-    <h1 class="cent">Cinemas dos Filmes</h1>
+    <div><h1 class="cent">Cinema dos Filmes</h1></div>
 
-    <h4 class="descricao">No site CINEMAS FILMES você encontrará apenas a nata de filmes espetaculares como: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo magnam nam commodi vel labore ullam delectus fuga rerum cumque. Repudiandae corrupti exercitationem doloremque obcaecsati commodi numquam assumenda, iure odio voluptas?</h4>
+    <h4 class="descricao">No site CINEMAS FILMES você encontrará apenas a nata de filmes espetaculares do momento, como "Cujo", "The Velocipastor", "Sharknado" e </h4>
 
 
     <div class="containerG">
@@ -40,7 +40,7 @@
       <li class="lista">1h 15min</li>  
       <li class="lista">Diretor: Brendan Steere</li>
       <li class="lista">Elenco: Gregory James, Janice Young,<br> Alyssa Kempinski</li>
-      <li class="lista"><a class="link" href="https://www.adorocinema.com/filmes/filme-2208/">Review</a></li>
+      <li class="lista"><a class="link" href="https://www.imdb.com/pt/title/tt1843303/">Review</a></li>
         </ul>
       </div>
 
@@ -48,5 +48,15 @@
 
       <!-- Sua parte aqui em baixo -->
     
-</body>
+</body> <!-- Feito apenas para ficar diferente -->
+<script> 
+  const cent = document.querySelector('.cent');
+
+  cent.addEventListener('mouseover', () => {
+    const corAleatoria = '#' + Math.floor(Math.random()*16777215).toString(16);
+    cent.style.color = corAleatoria;
+  });
+
+</script>
+
 </html>

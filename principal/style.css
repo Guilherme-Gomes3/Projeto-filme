@@ -1,16 +1,11 @@
-bodyY {
-  background-image: url("imagens-maneiras/background.jpg"); /* Caminho da imagem */
-  background-size: cover;        /* Faz a imagem cobrir toda a tela */
-  background-repeat: no-repeat;  /* Impede que a imagem fique se repetindo */
-  background-position: center;   /* Centraliza a imagem */
-  height: 100;                 /* Garante altura da viewport */
-  margin: 0;                     /* Remove margem padrão do body */
+body {
+  background-image: linear-gradient(to bottom right, gray, black);;
 }
 
 
 .descricao {
     text-align: center;
-    color: black;
+    color: antiquewhite;
     font-size: medium;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 3cm;
@@ -21,14 +16,12 @@ bodyY {
 
 
 .cent {
-  background-color: rgb(129, 129, 129);     
   color: rgb(97, 45, 45);                
   padding: 20px 0;             
   text-align: center;           
-  box-shadow: 0 0px 20px #0005;
+  
   font-size: xxx-large;   /* Não fazia ideia que xxx large existia */
-  cursor: crosshair;
-  transition: background-color 0.3s;
+  transition: color 0.3s ease;
   top: 0%;
   width: 100%;
 
@@ -36,8 +29,8 @@ bodyY {
 
 
 
-.cent:hover {
-  background-color: rgb(100, 100, 100);
+.cent:h/over {
+  color: rgb(100, 100, 100);
 }
 
 
@@ -73,12 +66,12 @@ bodyY {
 }
 
 .image2:hover{
-  box-shadow: 0px 0px 25px rgb(192 50 50);
+  box-shadow: 0px 0px 45px rgb(192 50 50);
 }
 
 .lista {
   font-size: 18px;
-  color: #333;
+  color: antiquewhite;
   max-width: 500px;            /* Limita o tamanho do texto */
   font-weight: bold;
 }
@@ -87,7 +80,7 @@ bodyY {
 .link{ 
   
   text-decoration: none;
-  color: black;
+  color: antiquewhite;
 }
 
 .link:hover{
