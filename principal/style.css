@@ -36,9 +36,16 @@ body {
 
 
 .containerG {
-  display: flex;               /* Organiza os itens na horizontal */
-  align-items: center;         /* Alinha o texto e a imagem no centro vertical */
-  gap: 5px;                   /* Espaço entre imagem e texto */
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: rgba(0, 0, 0, 0.4); 
+  border-radius: 20px;
+  padding: 15px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1000px;
+  box-shadow: 0 0 10px #0006;
 }
 
 .image {
@@ -96,7 +103,7 @@ body {
 .lista {
   font-size: 18px;
   color: antiquewhite;
-  max-width: 500px;            /* Limita o tamanho do texto */
+  max-width: 500px;            
   font-weight: bold;
 }
 
@@ -109,7 +116,39 @@ body {
 
 .link:hover{
   text-decoration: underline;
-  color:  rgb(99, 27, 27);
+  color:  rgb(177, 100, 11);
+}
+
+.link2{ 
+  
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.link2:hover{
+  text-decoration: underline;
+  color:  rgb(100, 8, 8);
+}
+
+.link3{ 
+  
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.link3:hover{
+  text-decoration: underline;
+  color:  rgb(125, 168, 168);
+}
+.link4{ 
+  
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.link4:hover{
+  text-decoration: underline;
+  color:  rgb(143, 143, 143);
 }
 
 .box-img2{ 
@@ -128,4 +167,3 @@ body {
   height: 50px;
   background-size: 10px;
 }
-
